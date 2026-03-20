@@ -10,7 +10,7 @@ export function getByID(id){
 }
 
 export function create(comanda){
-    const camisetas = camisetasService.getAll();
+    const camisetas = camisetasService.getAll({});
     const valida = validarPedido(comanda, camisetas);
 
     if(valida){
@@ -105,6 +105,5 @@ export const validarPedido = (body, catalogoCamisetas) => {
     }
   }
 
-  // Si el código llega hasta aquí, significa que no hubo ningún error
   return null; 
 };
