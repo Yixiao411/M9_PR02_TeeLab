@@ -4,7 +4,6 @@ import cors from 'cors';
 import camisetasRouter from '../routes/camisetas.routes.js';
 import comandasRouter from '../routes/comandas.routes.js';
 
-// Crear app para testing
 const app = express();
 
 app.use(express.json());
