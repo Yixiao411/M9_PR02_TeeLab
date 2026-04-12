@@ -1,6 +1,7 @@
 # TeeLab - API de Camisetas y Comandas
 
 API REST para la gestión de camisetas y comandas.
+Video demostrativo: https://drive.google.com/file/d/1obQ5PCWXb6ct7_gEnqD_HadcU0wCUaIc/view?usp=sharing
 
 ## Instrucciones de inicio
 
